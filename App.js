@@ -1,11 +1,11 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
-import GetField from './src/field'
+import FieldComponent from './src/field'
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <GetField />
+      <FieldComponent name='Поле экспериментов'/>
       <Text>Тут че-то будет</Text>
     </View>
   );
