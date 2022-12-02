@@ -9,11 +9,12 @@ class SquereComponent extends Component {
 
     constructor(props) {
         super(props);
-        this.state = {
+        // указать что стейт иммет интерфейс
+        this.state: SquereProps = {
             row : props.row,
             col : props.col,
             entity : null,
-        }
+        } 
         // бинды
         this.selectSquere = this.selectSquere.bind(this)
     }
